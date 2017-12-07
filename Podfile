@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
-source 'git@github.com:JSONssssss/PodSpec.git'
+source 'git@github.com:JSONssssss/MyPodSpec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Tools' do
