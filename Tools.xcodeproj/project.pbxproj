@@ -56,17 +56,41 @@
 		A55599541FD9133400648D50 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A555999C1FDA7DEA00648D50 /* ManageTool */,
+				A555999B1FDA7DD600648D50 /* UITool */,
+				A555999A1FDA7DBC00648D50 /* StringTool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A555999A1FDA7DBC00648D50 /* StringTool */ = {
+			isa = PBXGroup;
+			children = (
 				A55599551FD9133400648D50 /* NSString+Base64.h */,
 				A55599561FD9133400648D50 /* NSString+Base64.m */,
-				A55599571FD9133400648D50 /* SXAdManager.h */,
-				A55599581FD9133400648D50 /* SXAdManager.m */,
-				A55599591FD9133400648D50 /* SXEasyMacro.h */,
+			);
+			path = StringTool;
+			sourceTree = "<group>";
+		};
+		A555999B1FDA7DD600648D50 /* UITool */ = {
+			isa = PBXGroup;
+			children = (
 				A555995E1FD9133400648D50 /* UILabel+Wonderful.h */,
 				A555995F1FD9133400648D50 /* UILabel+Wonderful.m */,
 				A55599601FD9133400648D50 /* UIView+Frame.h */,
 				A55599611FD9133400648D50 /* UIView+Frame.m */,
 			);
-			path = Tools;
+			path = UITool;
+			sourceTree = "<group>";
+		};
+		A555999C1FDA7DEA00648D50 /* ManageTool */ = {
+			isa = PBXGroup;
+			children = (
+				A55599571FD9133400648D50 /* SXAdManager.h */,
+				A55599581FD9133400648D50 /* SXAdManager.m */,
+				A55599591FD9133400648D50 /* SXEasyMacro.h */,
+			);
+			path = ManageTool;
 			sourceTree = "<group>";
 		};
 		A626E64602E8FED124CB1FFF /* Pods */ = {
