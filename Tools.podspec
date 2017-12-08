@@ -26,16 +26,16 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Tools/Tools/**/*.{h,m}"
 
-  s.subspec 'ManageTool' do |ss|
-    ss.source_files = 'Tools/Tools/ManageTool/**/*.{h,m}'
+   s.subspec 'ManageTool' do |manageTool|
+      manageTool.source_files = 'Tools/Tools/ManageTool/**/*.{h,m}'
   end
 
-  s.subspec 'StringTool' do |ss|
-    ss.source_files = 'Tools/Tools/StringTool/**/*.{h,m}'
+  s.subspec 'StringTool' do |stringTool|
+    stringTool.source_files = 'Tools/Tools/StringTool/**/*.{h,m}'
   end
 
-  s.subspec 'UITool' do |ss|
-    ss.source_files = 'Tools/Tools/UITool/**/*.{h,m}'
+  s.subspec 'UITool' do |uiTool|
+    uiTool.source_files = 'Tools/Tools/UITool/**/*.{h,m}'
   end
   
   # s.exclude_files = "Classes/Exclude"
